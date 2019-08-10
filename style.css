@@ -65,6 +65,7 @@ h3
 	font-weight: lighter;
 	font-size: 30px;
 	cursor: pointer;
+	width: 11%;
 }
 
 .b2
@@ -75,6 +76,7 @@ h3
 	font-weight: lighter;
 	font-size: 30px;
 	cursor: pointer;
+	width: 11%; 
 }
 
 .btn:hover
