@@ -4,11 +4,14 @@ https://stackoverflow.com/questions/25484894/css-transparent-buttons-with-border
 */
 body
 {
-	background-image: url("green_leaf.jpg");
+	/*background-image: url("fardin.jpeg");*/
+	background: white;
 	background-repeat: no-repeat;
 	background-size: cover;
-  	background-position: : 50% 50%;
-  	color: white;
+  	/*background-position: : 50% 50%;*/
+  	color: black;
+  	position: center;
+  	/*width: 40%;*/
 }
 
 h1
@@ -16,18 +19,19 @@ h1
 	/*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
 	font-family: 'Assistant', sans-serif;
 	font-weight: lighter;
-	font-size: 50px;
-	margin-left: 500px;
-	margin-top: 200px;
+	font-size: 40px;
+	margin-left: 400px;
+	margin-top: 150px;
 }
 
 h2
 {
 	font-family: 'Assistant', sans-serif;
 	font-weight: lighter;
-	font-size: 17px;
-	margin-left: 501px;
+	font-size: 20px;
+	margin-left: 400px;
 	margin-top: -22px;
+
 
 }
 
@@ -35,10 +39,18 @@ h3
 {
 	font-family: 'Assistant', sans-serif;
 	font-weight: lighter;
-	font-size: 17px;
-	margin-left: 501px;
-	margin-top: 10px;*/
+	font-size: 20px;
+	margin-left: 400px;
+	margin-top: 13px;
 }
+
+/*img
+{
+	width:350px;
+	height:auto;
+	margin-left: 473px;
+	border-radius: 25px;
+}*/
 
 .container
 {
@@ -48,24 +60,25 @@ h3
 .btn
 {
 	/*background-color: transparent;*/
-	background-color: black;
+	background: black;
 	color: white;
 	border:none;
     border:solid 2px black;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .b1
 {
 	margin: 0;
 	padding: 0;
-	margin-left: 501px;
+	margin-left: 400px;
 	padding: 5px 20px;
 	font-family: 'Assistant', sans-serif;
 	font-weight: lighter;
-	font-size: 30px;
+	font-size: 29px;
 	cursor: pointer;
-	width: 11%;
+	width: 13%;
+
 }
 
 .b2
@@ -74,9 +87,10 @@ h3
 	padding: 5px 20px;
 	font-family: 'Assistant', sans-serif;
 	font-weight: lighter;
-	font-size: 30px;
+	font-size: 29px;
 	cursor: pointer;
-	width: 11%; 
+	width: 13%;
+
 }
 
 .btn:hover
@@ -85,7 +99,15 @@ h3
 	color: black;
     border:solid 2px black;
     transition: 0.7s;
+    border-style: double black;
+    font-weight: bold;
+
 }
+
+
+
+
+
 
 
 
