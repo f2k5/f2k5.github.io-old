@@ -1,0 +1,95 @@
+/*
+Important sources used:
+https://stackoverflow.com/questions/25484894/css-transparent-buttons-with-borders;
+*/
+body
+{
+	background-image: url("green_leaf.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: : 50% 50%;
+  	color: white;
+}
+
+h1
+{
+	/*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	font-size: 50px;
+	margin-left: 500px;
+	margin-top: 200px;
+}
+
+h2
+{
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	font-size: 17px;
+	margin-left: 501px;
+	margin-top: -22px;
+
+}
+
+h3
+{
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	font-size: 17px;
+	margin-left: 501px;
+	margin-top: 10px;*/
+}
+
+.container
+{
+	margin-top: 0px;
+}
+
+.btn
+{
+	/*background-color: transparent;*/
+	background-color: black;
+	color: white;
+	border:none;
+    border:solid 2px black;
+    border-radius: 5px;
+}
+
+.b1
+{
+	margin: 0;
+	padding: 0;
+	margin-left: 501px;
+	padding: 5px 20px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.b2
+{
+	margin-left: 5px;
+	padding: 5px 20px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.btn:hover
+{
+	background: white;
+	color: black;
+    border:solid 2px black;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+
