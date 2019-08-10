@@ -4,7 +4,6 @@ https://stackoverflow.com/questions/25484894/css-transparent-buttons-with-border
 */
 body
 {
-	/*background-image: url("fardin.jpeg");*/
 	background: white;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -43,14 +42,6 @@ h3
 	margin-left: 400px;
 	margin-top: 13px;
 }
-
-/*img
-{
-	width:350px;
-	height:auto;
-	margin-left: 473px;
-	border-radius: 25px;
-}*/
 
 .container
 {
@@ -103,17 +94,3 @@ h3
     font-weight: bold;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
