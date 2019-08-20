@@ -1,46 +1,51 @@
-/*
-Important sources used:
-https://stackoverflow.com/questions/25484894/css-transparent-buttons-with-borders;
-*/
-body
+body 
 {
-	background: white;
-	background-repeat: no-repeat;
-	background-size: cover;
-  	/*background-position: : 50% 50%;*/
-  	color: black;
-  	position: center;
-  	/*width: 40%;*/
+    /*background: #f2ecda;*/
+    background:  #262626;
+
 }
 
 h1
-{
-	/*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
-	font-family: 'Assistant', sans-serif;
-	font-weight: lighter;
-	font-size: 40px;
-	margin-left: 400px;
-	margin-top: 150px;
+{	
+	color: black;
+	/*font-family: 'Libre Barcode 128 Text', cursive;*/
+	font-family: 'Bungee Shade', cursive;
+	font-size: 50px;
+	/*margin-top: 200px;*/
+	margin-left: 120px;
+	margin-top: 1px;
+	margin-bottom: 0.67em;
+
 }
 
 h2
 {
-	font-family: 'Assistant', sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-	margin-left: 400px;
-	margin-top: -22px;
+	font-family: 'Zilla Slab Highlight', cursive;
+	margin-top: -20px;
+  	margin-left: 120px;
+}
 
+.box
+{
+	width: 500px;
+	height: 550px;
+	border-radius: 5px;
+	background: #cf655d;
+	margin: auto; /*
+	margin-left: 300px;*/
+	margin-top: 40px;
+	/*box-shadow: 10px 10px;*/
+	-moz-box-shadow:    0px 3px 5px 10px black;
+  	-webkit-box-shadow: 0px 3px 5px 10px black;
+  	box-shadow:         0px 3px 5px 10px black;
+  	font-family: 'Athiti', sans-serif;
 
 }
 
-h3
+img
 {
-	font-family: 'Assistant', sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-	margin-left: 400px;
-	margin-top: 13px;
+	width: 499px;
+  	border: 2px solid black;
 }
 
 .container
@@ -52,41 +57,51 @@ h3
 {
 	/*background-color: transparent;*/
 	background: black;
-	color: white;
+	color: #cf655d;
 	border:none;
     border:solid 2px black;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .b1
 {
 	margin: 0;
 	padding: 0;
-	margin-left: 400px;
-	padding: 5px 20px;
-	font-family: 'Assistant', sans-serif;
+	margin-left: 95px;
+	padding: 5px 17px;
+	font-family: 'Righteous', cursive;
 	font-weight: lighter;
-	font-size: 29px;
+	font-size: 20px;
 	cursor: pointer;
-	width: 13%;
+	/*width: 13%;*/
 
 }
 
 .b2
 {
-	margin-left: 5px;
-	padding: 5px 20px;
-	font-family: 'Assistant', sans-serif;
+	margin-left: 0.5px;
+	padding: 5px 17px;
+	font-family: 'Righteous', cursive;
 	font-weight: lighter;
-	font-size: 29px;
+	font-size: 20px;
 	cursor: pointer;
-	width: 13%;
+
+}
+
+.b3
+{
+	margin-left: 0.5px;
+	padding: 5px 17px;
+	font-family: 'Righteous', cursive;
+	font-weight: lighter;
+	font-size: 20px;
+	cursor: pointer;
 
 }
 
 .btn:hover
 {
-	background: white;
+	background: #cccccc;
 	color: black;
     border:solid 2px black;
     transition: 0.7s;
@@ -94,3 +109,8 @@ h3
     font-weight: bold;
 
 }
+
+
+
+
+
