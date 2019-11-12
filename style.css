@@ -6,37 +6,29 @@ body
 h1, h2, h3, h4
 {
 	color: #0e3d80;
-	/*color: black;*/
-	margin-left: 500px;
+	margin-left: 150px;
+	font-family: 'Glegoo', serif;
+	font-weight: lighter;
+
 }
 
 h1
-{	
-	font-family: 'Bungee Shade', cursive;
-	font-size: 48px;
+{
+	/*font-family: 'Thasadith', sans-serif;*/
+	font-size: 70px;
 	margin-top: 120px;
-	font-size: bold;
 }
 
 h2
 {
-	font-family: 'Thasadith', sans-serif;
-	font-size: 25px;
-	margin-top: -20px;
+	/*font-family: 'Thasadith', sans-serif;*/
+	font-size: 20px;
+	margin-top: -40px;
 }
 
 h3
 {
-	font-family: 'Thasadith', sans-serif;
-	font-size: 25px;
-	margin-top: -5px;
+	/*font-family: 'Thasadith', sans-serif;*/
+	font-size: 20px;
+	margin-top: 10px;
 }
-
-h4
-{
-	font-family: 'Bungee Shade', cursive;
-	font-size: 50px;
-	margin-top: -20px;
-	font-size: bold;
-}
-
