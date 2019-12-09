@@ -36,7 +36,8 @@ h3
 
 .GitHover:hover
 {
-    text-decoration: underline black;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .E_hover:hover
