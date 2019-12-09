@@ -5,39 +5,44 @@ body
 
 h1, h2, h3, h4
 {
-	color: #0e3d80;
-	margin-left: 150px;
+	/*color: #0e3d80;*/
+	color: black;
+	margin-left: 420px;
 	font-family: 'Glegoo', serif;
 	font-weight: lighter;
 }
 
 h1
 {
-	font-size: 70px;
-	margin-top: 120px;
+	font-family: 'Shadows Into Light', cursive;
+
+	font-size: 35px;
+	margin-top: 180px;
 }
 
 h2
 {
-	font-size: 20px;
-	margin-top: -40px;
+	font-size: 15px;
+	margin-top: -25px;
 }
 
 h3
 {
-	font-size: 20px;
-	margin-top: 10px;
+	font-family: 'Shadows Into Light', cursive;
+
+	font-size: 30px;
+	margin-top: -10px;
 }
 
 .GitHover:hover
 {
-    text-decoration: underline #0e3d80;
+    text-decoration: underline black;
 }
 
 .E_hover:hover
 {
 	text-decoration: underline;
-	text-decoration-color: #0e3d80;
+	text-decoration-color: black;
 }
 
 .container
