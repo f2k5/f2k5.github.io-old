@@ -22,16 +22,18 @@ h1
 
 h2
 {
-	font-size: 15px;
-	margin-top: -25px;
+	font-family: 'Shadows Into Light', cursive;
+
+	font-size: 35px;
+	margin-top: -20px;
 }
 
 h3
 {
 	font-family: 'Shadows Into Light', cursive;
 
-	font-size: 30px;
-	margin-top: -10px;
+	font-size: 35px;
+	margin-top: -25px;
 }
 
 .GitHover:hover
