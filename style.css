@@ -1,28 +1,26 @@
 body
 {
-	background: white;
+	background: black;
 }
 
 h1, h2, h3, h4
 {
 	/*color: #0e3d80;*/
-	color: black;
-	margin-left: 420px;
-	font-family: 'Glegoo', serif;
+	color: white;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
 	font-weight: lighter;
 }
 
 h1
 {
-	font-family: 'Shadows Into Light', cursive;
 
 	font-size: 35px;
-	margin-top: 180px;
+	margin-top: 140px;
 }
 
 h2
 {
-	font-family: 'Shadows Into Light', cursive;
 
 	font-size: 35px;
 	margin-top: -20px;
@@ -30,11 +28,20 @@ h2
 
 h3
 {
-	font-family: 'Shadows Into Light', cursive;
-
-	font-size: 35px;
-	margin-top: -25px;
+	margin-top: -5px;
 }
+
+h4
+{
+	margin-top: -29px;
+}
+
+
+
+
+
+
+
 
 .GitHover:hover
 {
