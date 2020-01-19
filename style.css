@@ -1,14 +1,15 @@
 body
 {
-	background: black;
+	background: white;
 }
 
 h1, h2, h3, h4
 {
-	/*color: #0e3d80;*/
-	color: white;
+	color: #0e3d80;
+	color: black;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: lighter;
 }
 
@@ -16,32 +17,26 @@ h1
 {
 
 	font-size: 35px;
-	margin-top: 140px;
+	margin-top: 150px;
 }
 
 h2
 {
 
 	font-size: 35px;
-	margin-top: -20px;
+	margin-top: -25px;
 }
 
-h3
-{
-	margin-top: -5px;
+.row {
+  display: flex;
+  margin-left: 547px;
+  margin-top: -10px;
 }
 
-h4
-{
-	margin-top: -29px;
+.column {
+  flex: -9%;
+  padding: 5px;
 }
-
-
-
-
-
-
-
 
 .GitHover:hover
 {
