@@ -1,10 +1,10 @@
 body
 {
-	background: linear-gradient(180deg, #000 60%, #fff 50%); 
+	background: linear-gradient(180deg, #000 41%, #fff 40%); 
 	background-repeat: no-repeat;
 }
 
-h1, h2, h3, h4
+h1, h2, h3, h4, h5, h6
 {
 	color: #0e3d80;
 	color: black;
@@ -19,7 +19,7 @@ h1, h2, h3, h4
 h1
 {
 	text-align: justify;
-	margin-top: 145px;
+	margin-top: 100px;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 50px;
@@ -35,6 +35,13 @@ h2
 	color: white
 }
 
+h5, h6
+{
+	margin-top: -5px;
+	font-size: 19px;
+	color: black;
+}
+
 h3, h4
 {
 	margin-top: 35px;
@@ -47,15 +54,11 @@ h4
 	margin-top: 28px;
 }
 
-h5 {
-	text-align: center;
-	font-family: 'Slabo 27px', serif;
-	margin-top: -5px;
-	font-size: 19px;
-	color: black;
-}
+
 
 .row {
+	transition: box-shadow .3s;
+  background: #fff;
 	width: 33%;
 	display: flex; 
 	margin-left: auto;
