@@ -1,6 +1,6 @@
 body
 {
-	background: linear-gradient(180deg, #000 41%, #fff 40%); 
+	background: linear-gradient(180deg, #000 54%, #fff 50%); 
 	background-repeat: no-repeat;
 }
 
@@ -19,13 +19,13 @@ h1, h2, h3, h4, h5, h6
 h1
 {
 	text-align: justify;
-	margin-top: 100px;
+	margin-top: 113px;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 50px;
 	font-weight: lighter;
 	margin-bottom: 2px; 
-	color: white
+	color: white;
 }
 
 h2
@@ -37,7 +37,7 @@ h2
 
 h5, h6
 {
-	margin-top: -5px;
+	margin-top: -18px;
 	font-size: 19px;
 	color: black;
 }
@@ -58,8 +58,8 @@ h4
 
 .row {
 	transition: box-shadow .3s;
-  background: #fff;
-	width: 33%;
+    background: #fff;
+	width: 39%;
 	display: flex; 
 	margin-left: auto;
   	margin-right: auto;
@@ -71,7 +71,7 @@ h4
   padding: 2.5px;
   margin-left: auto;
   margin-right: auto;
-  width: 12%;
+  width: 19%;
 }
 
 .column:hover {
@@ -108,4 +108,9 @@ h4
 		opacity: 1;
 		transform: rotateX(0);
 	}
+}
+
+#resume_icon 
+{
+	border-radius: 7%;
 }
