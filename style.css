@@ -1,7 +1,9 @@
 body
 {
+	/*
 	background: linear-gradient(180deg, #000 54%, #fff 50%); 
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	background: white;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -25,14 +27,14 @@ h1
 	font-size: 50px;
 	font-weight: lighter;
 	margin-bottom: 2px; 
-	color: white;
+	color: black;
 }
 
 h2
 {
 	margin-top: 10px;
 	font-size: 20px;
-	color: white
+	color: black;
 }
 
 h5, h6
