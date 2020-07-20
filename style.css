@@ -1,13 +1,12 @@
-body
-{
+body {
 	/*
 	background: linear-gradient(180deg, #000 54%, #fff 50%); 
 	background-repeat: no-repeat;*/
 	background: white;
+	height: 100%
 }
 
-h1, h2, h3, h4, h5, h6
-{
+h1, h2, h3, h4, h5, h6 {
 	color: #0e3d80;
 	color: black;
 	text-align: center;
@@ -18,10 +17,9 @@ h1, h2, h3, h4, h5, h6
 	font-weight: lighter;
 }
 
-h1
-{
+h1 {
 	text-align: justify;
-	margin-top: 113px;
+	margin-top: 85px;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 50px;
@@ -30,38 +28,39 @@ h1
 	color: black;
 }
 
-h2
-{
+h2 {
 	margin-top: 10px;
 	font-size: 20px;
 	color: black;
 }
 
-h5, h6
-{
+h5, h6 {
 	margin-top: -18px;
 	font-size: 19px;
 	color: black;
 }
 
-h3, h4
-{
+h3, h4 {
 	margin-top: 35px;
 	font-size: 20px;
 }
 
-h4 
-{
+h4 {
 	font-size: 15px;
 	margin-top: 28px;
 }
 
-
+h6 {
+	margin-top: 40px;
+	font-size: 22px;
+	font-family: 'Slabo 27px', serif;
+	font-weight: lighter;
+}
 
 .row {
 	transition: box-shadow .3s;
     background: #fff;
-	width: 39%;
+	width: 42%;
 	display: flex; 
 	margin-left: auto;
   	margin-right: auto;
@@ -80,39 +79,45 @@ h4
 	opacity: 0.7;
 }
 
-.GitHover:hover
-{
+.GitHover:hover {
     text-decoration: underline;
     text-decoration-color: black;
 }
 
-.E_hover:hover
-{
+.E_hover:hover {
 	text-decoration: underline;
 	text-decoration-color: black;
 }
 
-.container
-{
+.container {
 	animation: transitionIn 2.5s;
 }
 
-@keyframes transitionIn
-{
-	from
-	{
+@keyframes transitionIn {
+	from {
 		opacity: 0;
 		transform: rotateX(-15deg);
 	}
 
-	to
-	{
+	to {
 		opacity: 1;
 		transform: rotateX(0);
 	}
 }
 
-#resume_icon 
-{
+#resume_icon {
 	border-radius: 7%;
+}
+
+#email_icon {
+	border-radius: 7%;
+}
+
+#phone_icon {
+	border-radius: 7%;
+}
+
+mark {
+  background-color: black;
+  color: white;
 }

@@ -5,55 +5,68 @@
 	<title>Fardin Khan</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Comic+Neue|Alegreya|Alegreya+Sans|Slabo+27px|Libre+Caslon+Text|Shadows+Into+Light|Yanone+Kaffeesatz:300&display=swap" rel="stylesheet">
 </head>
 
 <!--https://www.flaticon.com/authors/iconixar-->
 
-
-
-
 <body>
 		<div class = "container">
 			<h1>Fardin Khan</h1>
-			<h2>Computer Science · University of Victoria<br>I like building stuff.</h2> 
+			<h2>Vancouver BC, Canada<br><br>Computer Science <strong>·</strong> University of Victoria<br>I like designing & building stuff.</h2> 
+			<!-- · -->
 
 			<h3> 
 				<div class="row">
 				  <div class="column">
 				 		<a href = "https://github.com/f2k5" target="_blank">
-				    		<img src="Github.png" width="60" height="60" >
+				    		<img src="Github.png" width="60" height="60" 
+				    		onmouseover="displayGitHubText()" onmouseout="hideGitHubText()">
 						</a>
 				  </div>
 
 				  <div class="column">
 				  		<a href = "https://twitter.com/fwittery" target="_blank">
-				  			<img src="twitter copy.png" width="60" height="60">
+				  			<img src="twitter copy.png" width="60" height="60"
+				  			onmouseover="displayTwitterText()" onmouseout="hideTwitterText()">
 				 		</a>
 				  </div>
 
 				  <div class="column">
 				  		<a href = "https://www.instagram.com/f25k10/" target="_blank">
-				  			<img src="instagram.png" width="60" height="60">
+				  			<img src="insta.png" width="60" height="60"
+				  			onmouseover="displayInstagramText()" onmouseout="hideInstagramText()">
 				 		</a>
 				  </div>	
 
 				  <div class="column">
 				  		<a href="mailto:fardin.khan.cs@gmail.com">
-							<img id = "email_icon" src="email_cool.png" width="60" height="60" >
+							<img id = "email_icon" src="email.png" width="60" height="60"
+							onmouseover="displayEmailText()" onmouseout="hideEmailText()">
 				    	</a>
 				  </div>
 
 				  <div class="column">
 				  		<a href="https://www.linkedin.com/in/fardin-khan-92a3b01a7/" target="_blank">
-							<img src="linkedin copy.png" width="60" height="60" >
+							<img src="linkedin copy.png" width="60" height="60"
+							onmouseover="displayLinkedInText()" onmouseout="hideLinkedInText()">
 				    	</a>
 				  </div>
 
 				  <div class="column">
 				  		<a href="Fardin Khan_resume.pdf" target = "_blank">
-							<img id = "resume_icon" src="resume_sample.jpg" width="60" height="60" >
+							<img id = "resume_icon" src="r.png" width="60" height="60"
+							onmouseover="displayResumeText()" onmouseout="hideResumeText()">
 				    	</a>
+				  </div>
+
+				  <div class="column">
+				  	
+				    	<img id = "phone_icon" src="phone.png" width="60" height="60" 
+				    	onmouseover="displayNumber()" onmouseout="hideNumber()">
+				    	
+				
 				  </div>
 
 				</div>
@@ -61,18 +74,15 @@
 
 			<h4></h4>
 
-			<h5><br>I've experience using Java, C, Python, Swift, SQL, JavaScript, HTML & CSS.<br>
-				I am interested in web, iOS and general software development.</h5>
+			<h5><br>I've experience using Java, C/C++, Python, Swift, SQL, JavaScript & Bash.<br>
+				I am an avid learner, passionate about building impactful software. <br><br>
+				I'm currently <mark>available</mark> for hire. 
 
-			<h6>I'm currently <strong>available</strong> for hire. 
-				<!--
-				<br>
-				<img src="pupper.gif" width="130", height="130"> <br>
-				PS: I absolutely love dogs. -->
-			</h6>
+			</h5>
+
+			<h6 id = "x"></h6>
 			
 		</div>
 </body>
-
 
 </html>
