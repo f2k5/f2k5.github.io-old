@@ -14,9 +14,9 @@ body {
 
 p {
 	font-family: 'Lato', sans-serif;
-	color: aliceblue;
+	color: #dcdcde;
 	margin-bottom: 0;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 li {
@@ -25,8 +25,8 @@ li {
 
 a {
 	text-decoration: none;
-	color: aliceblue;
-	font-weight: 400;
+	color: #91a8cc;
+	font-weight: 700;
 }
 
 li:hover {
